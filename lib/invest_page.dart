@@ -84,7 +84,6 @@ class _invest_Page extends State<invest_Page> {
                 controller: phController,
                 keyboardType: TextInputType.number,
                 style: TextStyle(fontFamily: 'Product_Sans'),
-                obscureText: true,
                 decoration: InputDecoration(
                     labelText: 'Mobile Number',
                     labelStyle: TextStyle(color: Colors.black),
@@ -106,7 +105,6 @@ class _invest_Page extends State<invest_Page> {
               //padding: EdgeInsets.symmetric(horizontal: 15),
               child: TextField(
                 style: TextStyle(fontFamily: 'Product_Sans'),
-                obscureText: true,
                 decoration: InputDecoration(
                     labelText: 'State',
                     labelStyle: TextStyle(color: Colors.black),
