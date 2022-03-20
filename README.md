@@ -24,8 +24,8 @@ Here's a peek:
 
 ### Tech Stack
 <p float="left">
-  <img src="images/flutterlogo.png" width="100" />
-  <img src="images/dart_logo.png" width="100" />
-  <img src="images/cpplogo.png" width="100" /> 
-  <img src="images/PhotoShoplogo.png" width="100" />
+  <img src="images/flutterlogo.png" width="100" height="100" />
+  <img src="images/dart_logo.png" width="100" height "100" />
+  <img src="images/cpplogo.png" width="100" height "100" /> 
+  <img src="images/PhotoShoplogo.png" width="100" height "100" />
 </p>
