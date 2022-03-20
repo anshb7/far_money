@@ -3,6 +3,7 @@
 One bad harvest is all it takes for everything to fall apart for indian farmers and put them in vicous cycle of debt. This doesn't allow them to grow for the landlords and lenders keep exploiting them for their money. To solve all these problems and connect rural and urban India, We'd like to present Farmoney, a one-of-its-kind app which allows retail investors like us to invest in our own farmers and help them grow, while earning a sizeable profit.</br>
 
 <img src="images/Farmoney_logo.png" width="300" height="300">
+
 ### How it works
 There are two sides to the App- Farmer Side and Client Side:</br>
 
