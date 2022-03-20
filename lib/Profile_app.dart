@@ -134,7 +134,7 @@ class ProfileApp extends StatelessWidget {
                     height: 10.0,
                   ),
                   Text(
-                    'Hello, I am Bablu, a Rice farmer from Punjab.\n'
+                    'Hello, I am Aryan, a Rice farmer from Punjab.\n'
                     'I own 5 hectares of land and my monthly earning is 15,000\n'
                     'You can contact me at 98XXXXXXX. Looking forward to work with you.\n',
                     style: TextStyle(
