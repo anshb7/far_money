@@ -1,11 +1,36 @@
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: camel_case_types, prefer_const_constructors
 
 import 'package:flutter/material.dart';
 
-class ProfileApp extends StatelessWidget {
+class farmer_Dash extends StatefulWidget {
+  const farmer_Dash({Key? key}) : super(key: key);
+
+  @override
+  State<farmer_Dash> createState() => _farmer_DashState();
+}
+
+class _farmer_DashState extends State<farmer_Dash> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+          leading: Icon(
+            Icons.arrow_back_ios_new_rounded,
+            color: Colors.black,
+          ),
+          backgroundColor: Colors.transparent,
+          elevation: 0,
+          // ignore: prefer_const_constructors
+          title: Text(
+            "Dashboard",
+            style:
+                // ignore: prefer_const_constructors
+                TextStyle(
+                    fontFamily: "Product_Sans",
+                    fontWeight: FontWeight.bold,
+                    fontSize: 30,
+                    color: Colors.black),
+          )),
       body: Column(
         children: [
           Container(
@@ -32,7 +57,7 @@ class ProfileApp extends StatelessWidget {
                         height: 10.0,
                       ),
                       Text(
-                        "Aryan Julka",
+                        "Bablu",
                         style: TextStyle(
                           fontFamily: "Product_Sans",
                           fontSize: 22.0,
@@ -128,18 +153,21 @@ class ProfileApp extends StatelessWidget {
                         fontFamily: "Product_Sans",
                         color: Colors.black,
                         fontStyle: FontStyle.normal,
-                        fontSize: 28.0),
+                        fontSize: 18.0),
                   ),
                   SizedBox(
                     height: 10.0,
                   ),
                   Text(
-                    'Hello, I am Bablu, a Rice farmer from Punjab.\n'
-                    'I own 5 hectares of land and my monthly earning is 15,000\n'
-                    'You can contact me at 98XXXXXXX. Looking forward to work with you.\n',
+                    'Crops grown:Paddy,Wheat and Corn\n'
+                    'Holding Size: 5 hectares\n'
+                    'Profit:70%\n'
+                    'People interested in buying:\n'
+                    '1.Bublesh\n'
+                    '2.Mohak\n',
                     style: TextStyle(
                       fontFamily: "Product_Sans",
-                      fontSize: 22.0,
+                      fontSize: 18.0,
                       fontWeight: FontWeight.w300,
                       color: Colors.black,
                       letterSpacing: 2.0,
@@ -177,7 +205,7 @@ class ProfileApp extends StatelessWidget {
                       style: TextStyle(
                           fontFamily: "Product_Sans",
                           color: Colors.white,
-                          fontSize: 26.0,
+                          fontSize: 20.0,
                           fontWeight: FontWeight.w300),
                     ),
                   ),

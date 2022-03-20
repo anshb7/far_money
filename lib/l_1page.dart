@@ -3,6 +3,7 @@
 import 'package:far_money/HomePage.dart';
 import 'package:far_money/Profile_app.dart';
 import 'package:far_money/farmer.dart';
+import 'package:far_money/fdashboard.dart';
 import 'package:flutter/material.dart';
 import 'package:simple_gradient_text/simple_gradient_text.dart';
 
@@ -96,7 +97,6 @@ class _LoginDemoState extends State<LoginDemo> {
                 controller: farmsizeController,
                 keyboardType: TextInputType.number,
                 style: TextStyle(fontFamily: 'Product_Sans'),
-                obscureText: true,
                 decoration: InputDecoration(
                     labelText: 'Farm Size(Hectare)',
                     labelStyle: TextStyle(color: Colors.black),
@@ -119,7 +119,6 @@ class _LoginDemoState extends State<LoginDemo> {
                 controller: profitController,
                 keyboardType: TextInputType.number,
                 style: TextStyle(fontFamily: 'Product_Sans'),
-                obscureText: true,
                 decoration: InputDecoration(
                     labelText: 'Profit',
                     labelStyle: TextStyle(color: Colors.black),
@@ -140,6 +139,7 @@ class _LoginDemoState extends State<LoginDemo> {
               child: TextFormField(
                 controller: accountController,
                 keyboardType: TextInputType.number,
+                obscureText: true,
                 style: TextStyle(fontFamily: 'Product_Sans'),
                 decoration: InputDecoration(
                     labelText: 'Account Number',
@@ -213,7 +213,7 @@ class _LoginDemoState extends State<LoginDemo> {
                 onPressed: () {
                   Navigator.push(context, MaterialPageRoute(
                     builder: (_) {
-                      return ProfileApp();
+                      return farmer_Dash();
                     },
                   ));
                 },
