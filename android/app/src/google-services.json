@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "399768879402",
+    "project_id": "farmoney-38d54",
+    "storage_bucket": "farmoney-38d54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399768879402:android:31b27882e849a977b4de53",
+        "android_client_info": {
+          "package_name": "com.example.far_money"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "399768879402-o1nsrbtb90c971r9okhebvi0ns5996p0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAS6HzoQ8wbLwaf9ydHjWeon4Vjk20l2gU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "399768879402-o1nsrbtb90c971r9okhebvi0ns5996p0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
