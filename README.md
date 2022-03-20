@@ -21,7 +21,7 @@ The investor will register themselves on the platform and then will be open to s
 ### The Algorithm
 Our algorithms make it easier for the investor to choose the right farm to put their money in. 
 Here's a peek: </br>
-
+![](images/FlowChart_2.jpeg)
 ![](images/FlowChart_1.jpeg)
 
 ### Tech Stack
