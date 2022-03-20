@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
+import 'package:far_money/Profile_app.dart';
 import 'package:far_money/sideview.dart';
 import 'package:flutter/material.dart';
 
@@ -87,7 +88,13 @@ class _HomePageState extends State<HomePage> {
                     borderRadius: BorderRadius.circular(10.0),
                   ),
                 ),
-                onTap: () {},
+                onTap: () {
+                  Navigator.push(context, MaterialPageRoute(
+                    builder: (_) {
+                      return ProfileApp();
+                    },
+                  ));
+                },
               ),
               GestureDetector(
                 child: Card(
