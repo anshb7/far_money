@@ -4,7 +4,7 @@ One bad harvest is all it takes for everything to fall apart for indian farmers 
 
 <img src="images/Farmoney_logo.png" width="300" height="300">
 
-### How it works
+## How it works
 There are two sides to the App- Farmer Side and Client Side:</br>
 
 Farmer Side:</br>
@@ -15,16 +15,17 @@ The investor will register themselves on the platform and then will be open to s
 
 
 
-### The User Interface
+## The User Interface
 ![](images/Farmoney_UI.png)
 
-### The Algorithm
+## The Algorithm
 Our algorithms make it easier for the investor to choose the right farm to put their money in. 
+
 Here's a peek: </br>
 ![](images/FlowChart_2.jpeg)
 ![](images/FlowChart_1.jpeg)
 
-### Tech Stack
+## Tech Stack
 <p float="left">
   <img src="images/flutterlogo.png" width="100" height="100" />
   <img src="images/dart_logo.png" width="100" height "100" />
