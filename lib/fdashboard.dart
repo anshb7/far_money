@@ -1,5 +1,7 @@
 // ignore_for_file: camel_case_types, prefer_const_constructors
 
+import 'package:far_money/l_1page.dart';
+import 'package:far_money/main.dart';
 import 'package:flutter/material.dart';
 
 class farmer_Dash extends StatefulWidget {
@@ -14,10 +16,18 @@ class _farmer_DashState extends State<farmer_Dash> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          leading: Icon(
-            Icons.arrow_back_ios_new_rounded,
-            color: Colors.black,
-          ),
+          leading: IconButton(
+              onPressed: () {
+                Navigator.push(context, MaterialPageRoute(
+                  builder: (_) {
+                    return LoginDemo();
+                  },
+                ));
+              },
+              icon: Icon(
+                Icons.arrow_back_ios_new_rounded,
+                color: Colors.black,
+              )),
           backgroundColor: Colors.transparent,
           elevation: 0,
           // ignore: prefer_const_constructors
