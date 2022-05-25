@@ -32,3 +32,6 @@ Here's a peek: </br>
   <img src="images/cpplogo.png" width="100"  height "100" /> 
   <img src="images/PhotoShoplogo.png" width="100" height "100" />
 </p>
+
+## Developed by
+Developed by [@anshb7](https://github.com/anshb7) , [@grc-04](https://github.com/grc-04), [@vivaantaneja](https://https://github.com/vivaantaneja)
